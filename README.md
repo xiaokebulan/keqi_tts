@@ -4,7 +4,25 @@
 
 **本项目使用的环境：**
 
-CUDA 11.3
-torch 1.9.0+cu111
-python3.8
-linux/amd64
+ - CUDA 11.3
+ - torch 1.9.0+cu111
+ - python3.8
+ - linux/amd64
+
+## 快速部署
+
+docker pull keshiyong/keqi_tts:2.0.2
+
+docker run -d --name='keqi_tts' --net='bridge' --privileged=true -e 'NVIDIA_DRIVER_CAPABILITIES'='all' -e 'NVIDIA_VISIBLE_DEVICES'='GPU-xxx' -p '5000:5000/tcp' --runtime=nvidia 'keshiyong/keqi_tts:2.0.2'
+
+GPU-xxx替换成自己的
+
+## 欢迎加入知识星球或者QQ群讨论，知识星球里面提供项目的模型文件。
+qq群811427872
+![知识星球](static/xing.jpg)
+
+
+## 打赏作者
+![打赏](static/coffee.jpg)
+
+
