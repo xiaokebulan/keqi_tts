@@ -21,11 +21,11 @@ GPU-xxx替换成自己的
 
 qq群811427872
 
-<img src="static/xing.jpg" width="500">
+<img src="static/xing.jpg" width="300">
 
 
 ## 打赏作者
 
-<img src="static/coffee.jpg" width="500">
+<img src="static/coffee.jpg" width="300">
 
 
