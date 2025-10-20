@@ -19,10 +19,10 @@ GPU-xxx替换成自己的
 
 ## 欢迎加入知识星球或者QQ群讨论，知识星球里面提供项目的模型文件。
 qq群811427872
-![知识星球](static/xing.jpg)
+![知识星球](static/xing.jpg){width=500px}
 
 
 ## 打赏作者
-![打赏](static/coffee.jpg)
+![打赏](static/coffee.jpg){width=500px}
 
 
