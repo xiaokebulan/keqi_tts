@@ -1,0 +1,151 @@
+body {
+    padding-top: 100px;
+    background-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Popins",sans-serif;
+}
+.daohang{
+
+    width: 100%;
+    height: 20vh;
+    display: flex;
+
+    justify-content: center;
+}
+nav{
+    background: #fff;
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 0 5px 4px -20px rgba(0, 0, 0, 0.4);
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+ 
+    font-size: 50px;
+    font-weight: 50;
+    color: #777;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    
+}
+nav ul li::after{
+    content: "";
+    background: #86dbf5;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    opacity: 0;
+    
+}
+nav ul li:hover{
+    color: #fff;
+}
+nav ul li:hover::after{
+    top: 50%;
+    opacity: 1;
+}
+
+
+#content {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    
+}
+
+#player {
+    bottom: 50px;
+    left: 300px;
+    position: absolute;
+}
+
+#result {
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    top: 100px;
+    right: 100px;
+    position: absolute;
+}
+
+#result_p{
+    width: 300px;
+    height: 250px;
+}
+
+
+#upload {
+
+    height: 30px;
+    top: 160px;
+    left: 130px;
+    position: absolute;
+}
+
+#upload_long {
+
+    height: 30px;
+    top: 230px;
+    left: 130px;
+    position: absolute;
+}
+
+#btn {
+    top: 180px;
+    left: 150px;
+    position: relative;
+}
+
+
+.file {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 8px 40px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+
+#record_btn {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 200px;
+    top: 185px;
+}
