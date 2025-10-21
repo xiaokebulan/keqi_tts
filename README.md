@@ -17,7 +17,7 @@ docker run -d --name='keqi_tts' --net='bridge' --privileged=true -e 'NVIDIA_DRIV
 
 GPU-xxx替换成自己的
 
-## 欢迎加入知识星球或者QQ群讨论，知识星球里面提供项目的模型文件。
+## 欢迎加入知识星球或者QQ群讨论，知识星球里面提供项目的模型文件、相关资料以及国内的加速镜像文件。
 
 qq群811427872
 
@@ -27,5 +27,5 @@ qq群811427872
 ## 打赏作者
 
 <img src="static/coffee.jpg" width="300">
-您的支持是我继续开源的动力！
+  您的支持是我继续开源的动力！
 
